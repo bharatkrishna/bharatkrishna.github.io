@@ -1,5 +1,8 @@
 ---
-published: false
+layout: post
+title:  "Mounting a SSH File System on Mac"
+date:   2018-04-22 21:02:32 -0700
+categories: general
 ---
 ## Mounting a SSH File System on Mac
 
@@ -7,19 +10,19 @@ I used to use [Macfusion](http://macfusionapp.org/) to mount a lab machine on my
 
 After upgrading to MacOS Sierra, Macfusion stopped working. A discussion is going on in their github page about it but there is no solution yet. In the meantime, these are the workarounds I did: 
 
-**Get FUSE**
+#### Get FUSE
 Install latest FUSE for MacOS: https://osxfuse.github.io/
 
-**Mount File System using sshfs**
+#### Mount File System using sshfs
 Create a directory ~/Volumes/<mount_point>
 
-**Run sshfs to mount:**
+Run sshfs to mount:
 ```
 $ sshfs -o sshfs_debug -o defer_permissions root@198.168.0.9:/ ~/Volumes/198.168.0.9/
 ```
 -o defer_permissions lets us write to file system even if write access is no available on the remote machine. 
 
-**Script to automate the mounting process**
+#### Script to automate the mounting process
 This is a quickly hacked up script to automate the process:
 
 mount.sh: 

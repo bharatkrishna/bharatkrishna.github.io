@@ -10,7 +10,7 @@ I used to use [Macfusion](http://macfusionapp.org/) to mount a lab machine on my
 After upgrading to MacOS Sierra, Macfusion stopped working. A discussion is going on in their github page about it but there is no solution yet. In the meantime, these are the workarounds I did: 
 
 #### Get FUSE
-Install latest FUSE for MacOS: https://osxfuse.github.io/
+Install latest FUSE for MacOS: [https://osxfuse.github.io/](https://osxfuse.github.io/)
 
 #### Mount File System using sshfs
 Create a directory ~/Volumes/<mount_point>

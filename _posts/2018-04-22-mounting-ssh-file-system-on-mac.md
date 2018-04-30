@@ -2,7 +2,7 @@
 layout: post
 title:  "Mounting a SSH File System on Mac"
 date:   2018-04-22 21:02:32 -0700
-categories: general
+categories: mac
 ---
 ## Mounting a SSH File System on Mac
 

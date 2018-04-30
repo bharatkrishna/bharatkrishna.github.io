@@ -75,7 +75,7 @@ alias ssh-umount="/Users/bharat/unmount.sh"
 
 Have fun:
 ```
-mpbyk:$ ssh-mount root@198.168.0.9
+mpbyk:~ Bharat$ ssh-mount root@198.168.0.9
 SSHFS version 2.5
 Server version: 3
 Extension: posix-rename@openssh.com <1>
@@ -85,12 +85,12 @@ Extension: hardlink@openssh.com <1>
 Extension: fsync@openssh.com <1>
 
 
-sjc-mpbyk:~ braghava$ ls ~/Volumes/root\@198.168.0.9/
+mpbyk:~ Bharat$ ls ~/Volumes/root\@198.168.0.9/
 home        libx32      opt         sbin        usr
 lib         lost+found  proc        srv         var
 bin         dev         lib32       media       root        sys
 boot        etc         lib64       mnt         run         tmp
 
 
-sjc-mpbyk:~ braghava$ ssh-umount root@198.168.0.9
+mpbyk:~ Bharat$ ssh-umount root@198.168.0.9
 ```

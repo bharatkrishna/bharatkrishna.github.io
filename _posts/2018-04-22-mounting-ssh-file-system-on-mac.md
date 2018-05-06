@@ -2,7 +2,8 @@
 layout: post
 title:  "Mounting a SSH File System on Mac"
 date:   2018-04-22 21:02:32 -0700
-categories: mac
+category: Setup
+tags: [Mac]
 ---
 
 I used to use [Macfusion](http://macfusionapp.org/) to mount a lab machine on my Mac. I do this so that I can use a GUI editor (like [Visual Studio Code](https://code.visualstudio.com/)) instead of vim or emacs. 

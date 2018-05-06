@@ -2,7 +2,8 @@
 layout: post
 title:  "Emulating a Big-Endian machine on Little-Endian hardware"
 date:   2018-04-29 16:51:51 -0700
-categories: archive
+category: Setup
+tags: [Virtualization]
 ---
 
 > This is an old post from 2012 which I wrote when I was a graduate student. My old blog was hosted on my university's CS department's server which seem to no longer exist. I had backups of some posts from my old blog which I am republishing now as it might still be relevant. 

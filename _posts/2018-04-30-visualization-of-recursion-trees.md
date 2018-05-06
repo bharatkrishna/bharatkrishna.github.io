@@ -2,7 +2,8 @@
 layout: post
 title:  "Visualization of recursion trees"
 date:   2018-04-30 07:36:56 -0700
-categories: archive
+category: Programming
+tags: [Algorithms]
 ---
 
 > This is an old post from 2012 which I wrote when I was a graduate student. My old blog was hosted on my university's CS department's server which seem to no longer exist. I had backups of some posts from my old blog which I am republishing now as it might be useful. 

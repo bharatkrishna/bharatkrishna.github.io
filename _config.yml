@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Core dump
+title: Bharat Krishna
 email: ""
 description: >- # this means to ignore newlines until "baseurl:"
-  Dumping my working memory. Or in humanese, blogging my journey as a Software Engineer. 
+  Chronicling my journey as a Software Engineer. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: ""
